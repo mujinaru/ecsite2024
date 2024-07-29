@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/goodsLayout.astro
-title: HGUC 1/144 クシャトリヤ
+title1: HGUC 1/144
+title2: クシャトリヤ
+titleAll: HGUC 1/144 クシャトリヤ
 text: ●ＨＧＵＣに機動戦士ガンダムユニコーンシリーズが登場。 ●ネオ・ジオン軍残党組織「袖付き」が擁するサイコミュ搭載型ＭＳを完全立体化。 ●1/144スケールＨＧＵＣにして全高１５５ｍｍ、バインダーを含めて２００ｍｍ近い大きさをほこる。 ●４基の超大型バインダーはそれぞれ自由に可動、さらにポーズ固定のため基部の一部にロック機構を採用。 ●様々なシーンに対応できるギミックを搭載し、バインダー裏には大型バーニア２基、ファンネル６機が収納でき、隠し腕も再現されている。
-thumbnail: samu.jpg
-price: 4,950円,
-state: false,
+thumbnail: kshatriya.jpg
+price: 4,950円
+state: false
 id: 2072798
 colors: 緑
 maker: バンダイホビーセンター
 ---
-
-![よっちゃんイカ](/images/samu.jpg)

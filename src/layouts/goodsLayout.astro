@@ -1,7 +1,20 @@
 ---
-const {frontmatter} = Astro.props;
+const { frontmatter, titleAll, thumbnail } = Astro.props;
 ---
 
+<div class="layout_all">
+    <img
+        id="mainImg"
+        class="main-img"
+        src={`/10_ecsite/images/${frontmatter.thumbnail}`}
+        alt={titleAll}
+    />
+    <div class="layout_text">
+        <h3 class="sub_title">{frontmatter.title1}</h3>
+        <h2 class="main_title">{frontmatter.title2}</h2>
+        <h2>{frontmatter.price}</h2>
+        <p>{frontmatter.text}</p>
+    </div>
+</div>
 
-<h2>{frontmatter.title}</h2>
 <slot />

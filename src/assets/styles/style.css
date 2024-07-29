@@ -1,4 +1,104 @@
 body {
-  background: #000;
+  margin: 0;
+  background: #f1f1f1;
 }
+
+/* header */
+
+header {
+  margin: 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 80px;
+  font-size: 40px;
+  text-align: center;
+  color: #f1f1f1;
+  background-color: #1a1a1a;
+}
+
+/* main */
+
+main {
+  margin: 100px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+/* article */
+
+main article {
+  width: 500px;
+  height: 60%;
+  margin: 40px 20px;
+  padding: 40px 50px 20px;
+}
+
+article a {
+  color: #000;
+  text-decoration: none;
+}
+
+article a img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+article h2 {
+  margin: 10px 0;
+}
+
+.title_sub {
+  font-size: 18px;
+}
+
+.title_main {
+  font-size: 25px;
+}
+
+
+/* footer */
+
+footer {
+  padding: 80px 0 50px;
+  text-align: center;
+  color: #e0e0e0;
+  background-color: #1a1a1a;
+}
+
+/* goodsCard */
+.merchandise {
+  min-width: 100%;
+}
+
+
+/* goodsLayout */
+
+.layout_all {
+  display: flex;
+  margin: 200px 100px;
+}
+
+.layout_text {
+  margin: 100px 150px;
+}
+
+.layout_text .sub_title {
+  font-size: 18px;
+}
+
+.layout_text .main_title {
+  font-size: 32px;
+}
+
+.main-img {
+  min-width: 35%;
+  width: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */
